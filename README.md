@@ -20,7 +20,7 @@ https://github.com/parthgupta1208/PresentSmart/assets/114602309/dc8a0ded-af9f-4c
 
 1. Clone this repo.
 
-2. Install the required dependencies using pip.
+2. Install the required dependencies using pip (NOTE: use conda env and python 3.11).
     - ```pip install python_pptx```
     - ```pip install openai```
     - ```pip install google_images_search```
