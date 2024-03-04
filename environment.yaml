@@ -1,0 +1,4 @@
+name: present-smart
+dependencies:
+  - python=3.11
+

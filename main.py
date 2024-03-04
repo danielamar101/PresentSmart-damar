@@ -1,5 +1,10 @@
 import pdf2final_list
 import text2ppt
 
-x=pdf2final_list.process(["Logistic Regression","Estimating Probabilities in ML", "Training and cost function in ML", "Decision boundaries in ML", "SoftMax regression", "Non-linear SVM classification","Polynomial kernel in SVM", "adding similarity feature in SVM", "Gaussian RBF Kernel in SVM", "SVM Regression"])
+# import debugpy
+# debugpy.listen(("localhost", 5678))
+
+topics = pdf2final_list.get_topics_from_keywords("Ice Cream")
+
+x=pdf2final_list.process(topics['Ice Cream'])
 text2ppt.presentate(x)

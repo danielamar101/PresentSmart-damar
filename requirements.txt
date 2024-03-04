@@ -1,0 +1,3 @@
+openai
+python_pptx
+google_images_search
